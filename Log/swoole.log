@@ -1,0 +1,29 @@
+[2020-04-18 13:33:25 *39633.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Class 'EasySwoole\Http\AbstractInterface\AnnotationController' not found in /root/swoole/Test/App/HttpController/BaseController.php on line 7
+[2020-04-18 13:33:25 $39629.0]	WARNING	swManager_check_exit_status: worker#2[pid=39633] abnormal exit, status=255, signal=0
+[2020-04-18 13:57:21 *39753.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Class 'EasySwoole\Http\AbstractInterface\AnnotationController' not found in /root/swoole/Test/App/HttpController/BaseController.php on line 7
+[2020-04-18 13:57:21 $39749.0]	WARNING	swManager_check_exit_status: worker#2[pid=39753] abnormal exit, status=255, signal=0
+[2020-04-19 05:55:05 $10562.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10570.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10569.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10571.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10568.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10566.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10567.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10565.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 *10564.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 #10561.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-04-19 05:55:05 $10562.0]	WARNING	swManager_check_exit_status: worker#8[pid=10572] abnormal exit, status=0, signal=1
+[2020-04-19 05:55:05 $10562.0]	WARNING	swManager_check_exit_status: worker#9[pid=10573] abnormal exit, status=0, signal=1
+[2020-04-19 05:55:05 $10562.0]	WARNING	swManager_check_exit_status: worker#10[pid=10574] abnormal exit, status=0, signal=1
+[2020-04-19 05:55:05 $10562.0]	WARNING	swManager_check_exit_status: worker#11[pid=10575] abnormal exit, status=0, signal=1
+[2020-04-19 05:55:05 $10562.0]	WARNING	swManager_check_exit_status: worker#12[pid=10576] abnormal exit, status=0, signal=1
+[2020-04-19 06:13:30 #10561.1]	INFO	Server is shutdown now
+[2020-04-19 06:26:10 *11132.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught TypeError: Return value of App\WebSocket\WebSocketParser::decode() must be an instance of EasySwoole\Socket\Bean\Caller, null returned in /root/swoole/Test/App/WebSocket/WebSocketParser.php:36
+Stack trace:
+#0 /root/swoole/Test/vendor/easyswoole/socket/src/Dispatcher.php(63): App\WebSocket\WebSocketParser->decode('PING', Object(EasySwoole\Socket\Client\WebSocket))
+#1 /root/swoole/Test/EasySwooleEvent.php(42): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#4 {main}
+  thrown in /root/swoole/Test/App/WebSocket/WebSocketParser.php on line 36
+[2020-04-19 06:26:10 $11128.0]	WARNING	swManager_check_exit_status: worker#2[pid=11132] abnormal exit, status=255, signal=0

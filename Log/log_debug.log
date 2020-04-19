@@ -1,0 +1,86 @@
+[2020-04-19 01:30:47][debug][error] : [Uncaught Error: Class 'EasySwoole\EasySwoole\DbManager' not found in /root/swoole/Test/EasySwooleEvent.php:23
+Stack trace:
+#0 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /root/swoole/Test/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/root/swoole/Test/EasySwooleEvent.php line:23]
+[2020-04-19 01:33:25][debug][error] : [Class 'EasySwoole\Http\AbstractInterface\AnnotationController' not found at file:/root/swoole/Test/App/HttpController/BaseController.php line:7]
+[2020-04-19 01:57:21][debug][error] : [Class 'EasySwoole\Http\AbstractInterface\AnnotationController' not found at file:/root/swoole/Test/App/HttpController/BaseController.php line:7]
+[2020-04-19 15:49:24][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 15:49:26][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 15:49:27][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 15:49:27][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:14:59][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:15:00][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:50:32][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:50:35][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:50:38][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:15][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:15][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:15][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:16][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:16][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:16][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:16][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:16][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:16][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:17][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:17][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:58:17][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:32][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:52][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:54][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:55][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:55][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:55][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:55][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:55][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:56][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:56][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:56][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:56][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:56][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:57][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 16:59:57][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 17:00:38][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 17:01:01][debug][notice] : [Undefined index: goodsid at file:/root/swoole/Test/App/HttpController/Api/Common/Banner.php line:30]
+[2020-04-19 17:58:38][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php:63
+Stack trace:
+#0 /root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php(63): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 3, '0.0.0.0', Array, 2, 1)
+#2 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /root/swoole/Test/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+   at file:/root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php line:63]
+[2020-04-19 17:59:14][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /root/swoole/Test/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+   at file:/root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-04-19 18:13:33][debug][error] : [Uncaught Error: Class 'EasySwoole\EasySwoole\WebSocketParser' not found in /root/swoole/Test/EasySwooleEvent.php:35
+Stack trace:
+#0 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /root/swoole/Test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /root/swoole/Test/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/root/swoole/Test/EasySwooleEvent.php line:35]
+[2020-04-19 18:26:10][debug][error] : [Uncaught TypeError: Return value of App\WebSocket\WebSocketParser::decode() must be an instance of EasySwoole\Socket\Bean\Caller, null returned in /root/swoole/Test/App/WebSocket/WebSocketParser.php:36
+Stack trace:
+#0 /root/swoole/Test/vendor/easyswoole/socket/src/Dispatcher.php(63): App\WebSocket\WebSocketParser->decode('PING', Object(EasySwoole\Socket\Client\WebSocket))
+#1 /root/swoole/Test/EasySwooleEvent.php(42): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /root/swoole/Test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#4 {main}
+  thrown at file:/root/swoole/Test/App/WebSocket/WebSocketParser.php line:36]

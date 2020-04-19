@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/ddl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/easyswoole" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/http" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/mysqli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/orm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/pool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/session" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/socket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/spl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/task" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/trigger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/utility" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/validate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/nikic/fast-route" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/opis/closure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/psr/http-message" vcs="Git" />
+  </component>
+</project>

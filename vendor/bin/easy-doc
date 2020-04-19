@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+require_once getcwd().'/vendor/autoload.php';
+use EasySwoole\HttpAnnotation\AnnotationTag\Doc\Render;
+
+$array = $argv;
+array_shift($array);
+$file = array_shift($array);
+if(empty($file)){
+    $file = 'App/HttpController';
+}
+
+$extra = array_shift($array);
+if(!empty($extra) && is_file($extra)){
+    $extra = file_get_contents($extra);
+}else{
+    $extra = null;
+}
+
+echo "scan dir: {$file}\n";
+$string = (new Render())->renderDir($file,$extra);
+
+if(!empty($string)){
+    file_put_contents('easy_doc.html',$string);
+    echo "extra to  file: easy_doc.html\n";
+}else{
+    echo "no any api doc found\n";
+}
